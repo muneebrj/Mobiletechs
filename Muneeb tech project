@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Tech Hub - Accessories Store</title>
+    <style>
+        :root {
+            --primary-color: #2563eb; /* Blue */
+            --secondary-color: #10b981; /* Green for WhatsApp */
+            --bg-color: #f3f4f6;
+            --text-color: #1f2937;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border: 1px solid #e5e7eb;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 180px;
+            background: #e5e7eb;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #9ca3af;
+        }
+
+        h3 { margin: 10px 0; color: #111827; }
+
+        .price {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+
+        .specs {
+            font-size: 0.9rem;
+            color: #6b7280;
+            margin-bottom: 20px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .buy-btn {
+            display: block;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .buy-btn:hover {
+            background-color: #059669;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #1f2937;
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mobile Tech Hub</h1>
+    <p>Guilt-free Shopping - Premium Mobile Accessories</p>
+</header>
+
+<div class="container">
+    <div class="product-card">
+        <div class="product-image">FAST CHARGER</div>
+        <h3>20W Fast PD Charger</h3>
+        <ul class="specs">
+            <li>Type-C to Lightning/C</li>
+            <li>Overheat Protection</li>
+            <li>Original Quality</li>
+        </ul>
+        <div class="price">Rs. 1,450</div>
+        <a href="https://wa.me/923XXXXXXXXX?text=Assalam o Alaikum, mujhe Charger chahiye" class="buy-btn">WhatsApp Order</a>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image">EARBUDS</div>
+        <h3>M10 TWS Earbuds</h3>
+        <ul class="specs">
+            <li>Digital Display</li>
+            <li>5 Hours Battery Life</li>
+            <li>Extra Bass</li>
+        </ul>
+        <div class="price">Rs. 1,800</div>
+        <a href="https://wa.me/923XXXXXXXXX?text=Assalam o Alaikum, mujhe Earbuds chahiye" class="buy-btn">WhatsApp Order</a>
+    </div>
+
+    <div class="product-card">
+        <div class="product-image">CABLES</div>
+        <h3>Braided USB-C Cable</h3>
+        <ul class="specs">
+            <li>2 Meter Length</li>
+            <li>Tangle Free Design</li>
+            <li>Fast Data Sync</li>
+        </ul>
+        <div class="price">Rs. 450</div>
+        <a href="https://wa.me/923XXXXXXXXX?text=Assalam o Alaikum, mujhe Cable chahiye" class="buy-btn">WhatsApp Order</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Mobile Tech Hub | Gujar Khan, Pakistan</p>
+</footer>
+
+</body>
+</html>
+code completed
